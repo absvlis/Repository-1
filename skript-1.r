@@ -18,3 +18,4 @@ recode <- function(vec, alt, neu){
 dat$Geschlecht <- recode(dat$Geschlecht, alt = c(1, 2, 3), neu = c("m", "w", "d"))
 dat$Studiengang <- recode(dat$Studiengang, alt = c(1, 2, 3, 4),
                           neu = c("ID7", "IW7", "OM7", "WI7"))
+bbbb
